@@ -1,0 +1,13 @@
+.expandChild:before{
+    content: "+";
+    display: block;
+    cursor: pointer;
+}
+
+.expandChild.selected:before{
+    content: "-";
+}
+
+.child{
+    display: none;
+}
